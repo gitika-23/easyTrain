@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    padding-top: 10px;
+    padding-left:20px ;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+
+}
+.logo{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 40px;
+    text-shadow: 0px 0px 2px grey;
+}
+.nav-left{
+    margin-right: 30px;
+    padding-top: 15px;
+    padding: 15px 25px 5px;
+    background-color: rgba(176, 176, 176, 0.385);
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 80px;
+    box-shadow: 0px 0px 10px black;
+}
+.nav-links{
+    color: black;
+    text-decoration: none;
+    margin-right:80px ;
+    font-size: 18px;
+
+    
+}
+.nav-links:hover{
+    border-bottom: 4px solid black;
+    border-radius: 3px;
+    
+    padding-bottom: 20px;
+    color: rgb(255, 0, 0);
+}
+.nav-btn{
+    padding: 5px 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(74, 156, 250);
+    width: 100px;
+    border-radius: 15px;
+    margin-right:0px ;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    color: red;
+    background-color: white;
+
+}
+.hero{
+    height: 729px;
+    width:100wh ;
+    background-image: url(pexels-genine-alyssa-pedreno-andrada-1263127-2403209.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-top{
+    width: 400px;
+    color: black;
+    background-color: rgba(245, 222, 179, 0.71);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgb(159, 158, 158);
+    position: relative;
+    top: 50px;
+
+
+
+}
+.hero-h{
+    font-size: 30px;
+    font-weight:900;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.hero-p{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(72, 67, 67);
+    text-shadow: 0px 0px 1px black;
+    text-align: center;
+    margin-top: 20px;
+}
+.hero-btn{
+    padding: 3px 15px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(231, 9, 46);
+    border-radius: 10px;
+    position: relative;
+    left: 140px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    color: black;
+    background-color: aqua;
+    box-shadow: 0px 0px 2px black;
+}
+.about{
+    margin-top: 50px;
+    background-color: rgb(234, 231, 231);
+    display: flex;
+    
+}
+.about-right{
+    background-color: black;
+    width: 1100px;
+    margin-right: 50px;
+    background-image: url(about-img.jpg);
+    background-size: cover;
+    height: 500px;
+    margin-left: 60px;
+
+
+}
+.about-left{
+    padding-top:50px ;
+}
+.about-h{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.about-p{
+    margin-left: 110px;
+    font-size: 20px;
+}
+.footer {
+    margin-top: 50px;
+    background-color: var(--secondary-color);
+    color: var(--text-light);
+    background-color: rgba(37, 37, 51, 0.834);
+    
+    font-size: 0.9rem;
+  }
+  .call{
+    border: 2px solid black;
+    padding: 15px 8px;
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    transform: skew(20deg,10deg);
+    animation: COLORANIME 0.5s ease-in 2s infinite;
+  }
+  @keyframes COLORANIME {
+    from {
+    background-color: rgb(187, 186, 186);}
+    
+    to{
+        left: 200px;
+    background-color: red;}
+}
+  .about-us{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  .a_h{
+    text-align: center;
+    text-decoration: underline black;
+    margin-top: 20px;
+  }
+  .a_p{
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .copy{
+    text-align: center;
+
+  }
+
+
+
+
+  
+
+
+
+.flask{
+  display: flex;
+
+}
+.contact_form_container{
+  width: 1000px;
+  margin-left: 80px;
+  margin-top: 40px;
+  
+}
+.contact_form_container>h1{
+  padding-bottom: 20px;
+}
+.contact-input{
+  width: 248px;
+  border: 2px solid white;
+  margin: 5px 10px;
+  height: 20px;
+  padding: 3px 5px;
+  font-size:medium ;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px grey;
+  color: white;
+  font-size: 18px;
+
+}
+#Message{
+  width: 700px;
+  height: 80px;
+  
+}
+#Subject,#Mobile_number{
+  width: 700px;
+
+  
+}
+
+.contact-button{
+  padding: 5px 10px ;
+  border-radius: 2px;
+  background-color: rgb(53, 82, 213);
+  color: rgb(245, 238, 238);
+  font-size: 14px;
+  width: 130px;
+  cursor: pointer;
+
+
+}
+
+.profile-logo {
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+}
+

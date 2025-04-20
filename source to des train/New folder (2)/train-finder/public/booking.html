@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Train Booking Page</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Book Your Train Ticket</h1>
+    <form id="bookingForm">
+      <label for="trainName">Train Name</label>
+      <input type="text" id="trainName" name="trainName" readonly>
+
+      <label for="passengerName">Passenger Name</label>
+      <input type="text" id="passengerName" name="passengerName" required>
+
+      <label for="seatType">Seat Type</label>
+      <select id="seatType" name="seatType" required>
+        <option value="AC 1st Class">AC 1st Class</option>
+        <option value="AC 2nd Class">AC 2nd Class</option>
+        <option value="AC 3rd Class">AC 3rd Class</option>
+        <option value="Sleeper Class">Sleeper Class</option>
+        <option value="General Class">General Class</option>
+      </select>
+
+      <label for="berth">Berth Type</label>
+      <select id="berth" name="berth" required>
+        <option value="Lower">Lower</option>
+        <option value="Middle">Middle</option>
+        <option value="Upper">Upper</option>
+        <option value="Side Lower">Side Lower</option>
+        <option value="Side Upper">Side Upper</option>
+      </select>
+
+      <button type="submit" class="book-btn">Book Ticket</button>
+    </form>
+
+    <div id="confirmation" class="hidden">
+      <h2>Your Ticket Confirmation</h2>
+      <p id="ticketInfo"></p>
+    </div>
+  </div>
+
+  <script src="book.js"></script>
+</body>
+</html>

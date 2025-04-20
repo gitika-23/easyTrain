@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://png.pngtree.com/background/20230427/original/pngtree-vintage-train-wallpapers-picture-image_2497541.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    /* background-color: white; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: red;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    color: white; 
+}
+  
+  input, select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button.book-btn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button.book-btn:hover {
+    background-color: #45a049;
+  }
+  
+  #confirmation {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    opacity: 0.5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

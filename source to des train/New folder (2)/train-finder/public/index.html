@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Train Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Train Finder</h1>
+  <form id="trainForm">
+    <label for="from">From:</label>
+    <input type="text" id="from" name="from" placeholder="Enter departure city" required>
+    <label for="to">To:</label>
+    <input type="text" id="to" name="to" placeholder="Enter destination city" required>
+    <button type="submit">Find Trains</button>
+  </form>
+  <h2>Train Names</h2>
+  <ul id="trainList"></ul>
+  <div id="error" class="error"></div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Train Status Checker</title>
+    
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="h.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+   
+    
+    <div class="container">
+        <h2>Check Train Status</h2>
+        <input type="text" id="trainNumber" placeholder="Enter Train Number">
+        <input type="date" id="departureDate">
+        <button onclick="checkTrainStatus()">Check Train Status</button>
+        
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        async function checkTrainStatus() {
+            const trainNumber = document.getElementById('trainNumber').value;
+            const departureDate = document.getElementById('departureDate').value.replace(/-/g, '');
+    
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = "Fetching train status...";
+    
+            try {
+                const response = await fetch(`/api/train-status?trainNumber=${trainNumber}&departureDate=${departureDate}`);
+                const data = await response.json();
+    
+                resultDiv.innerHTML = ""; // Clear previous result
+    
+                if (data.body && data.body.stations && data.body.stations.length > 0) {
+                    data.body.stations.forEach(station => {
+                        const stationRow = document.createElement('div');
+                        stationRow.className = 'station-row';
+    
+                        const name = document.createElement('div');
+                        name.className = 'station-name';
+                        name.textContent = station.stationName;
+    
+                        const time = document.createElement('div');
+                        time.className = 'station-time';
+                        time.textContent = station.departureTime !== '--' ? `Departs at: ${station.departureTime}` : 'Departure not available';
+    
+                        stationRow.appendChild(name);
+                        stationRow.appendChild(time);
+    
+                        resultDiv.appendChild(stationRow);
+                    });
+                } else {
+                    resultDiv.innerHTML = "No station data found.";
+                }
+            } catch (err) {
+                resultDiv.innerHTML = "Error fetching train status. Please try again.";
+                console.error(err);
+            }
+        }
+    </script>
+    
+</body>
+</html>

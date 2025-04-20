@@ -1,0 +1,104 @@
+[
+    { "trainName": "Rajdhani Express", "from": "Delhi", "to": "Kanpur" },
+    { "trainName": "Shatabdi Express", "from": "Delhi", "to": "Kanpur" },
+    { "trainName": "Garib Rath Express", "from": "Delhi", "to": "Kanpur" },
+    { "trainName": "Duronto Express", "from": "Delhi", "to": "Kanpur" },
+    { "trainName": "Intercity Express", "from": "Delhi", "to": "Kanpur" },
+  
+    { "trainName": "Shatabdi Express", "from": "Delhi", "to": "Mathura" },
+    { "trainName": "Garib Rath Express", "from": "Delhi", "to": "Mathura" },
+    { "trainName": "Tejas Express", "from": "Delhi", "to": "Mathura" },
+    { "trainName": "Vande Bharat Express", "from": "Delhi", "to": "Mathura" },
+    { "trainName": "Superfast Express", "from": "Delhi", "to": "Mathura" },
+  
+    { "trainName": "Rajdhani Express", "from": "Mathura", "to": "Kanpur" },
+    { "trainName": "Shatabdi Express", "from": "Mathura", "to": "Kanpur" },
+    { "trainName": "Garib Rath Express", "from": "Mathura", "to": "Kanpur" },
+    { "trainName": "Vande Bharat Express", "from": "Mathura", "to": "Kanpur" },
+    { "trainName": "Express Special", "from": "Mathura", "to": "Kanpur" },
+  
+    { "trainName": "Duronto Express", "from": "Kanpur", "to": "Lucknow" },
+    { "trainName": "Intercity Express", "from": "Kanpur", "to": "Lucknow" },
+    { "trainName": "Shatabdi Express", "from": "Kanpur", "to": "Lucknow" },
+    { "trainName": "Rajdhani Express", "from": "Kanpur", "to": "Lucknow" },
+    { "trainName": "Garib Rath Express", "from": "Kanpur", "to": "Lucknow" },
+  
+    { "trainName": "Intercity Express", "from": "Lucknow", "to": "Gorakhpur" },
+    { "trainName": "Rajdhani Express", "from": "Lucknow", "to": "Gorakhpur" },
+    { "trainName": "Shatabdi Express", "from": "Lucknow", "to": "Gorakhpur" },
+    { "trainName": "Vande Bharat Express", "from": "Lucknow", "to": "Gorakhpur" },
+    { "trainName": "Duronto Express", "from": "Lucknow", "to": "Gorakhpur" },
+  
+    { "trainName": "Superfast Express", "from": "Agra", "to": "Delhi" },
+    { "trainName": "Shatabdi Express", "from": "Agra", "to": "Delhi" },
+    { "trainName": "Vande Bharat Express", "from": "Agra", "to": "Delhi" },
+    { "trainName": "Tejas Express", "from": "Agra", "to": "Delhi" },
+    { "trainName": "Garib Rath Express", "from": "Agra", "to": "Delhi" },
+  
+    { "trainName": "Jan Shatabdi Express", "from": "Aligarh", "to": "Agra" },
+    { "trainName": "Tejas Express", "from": "Aligarh", "to": "Agra" },
+    { "trainName": "Intercity Express", "from": "Aligarh", "to": "Agra" },
+    { "trainName": "Vande Bharat Express", "from": "Aligarh", "to": "Agra" },
+    { "trainName": "Superfast Express", "from": "Aligarh", "to": "Agra" },
+  
+    { "trainName": "Tejas Express", "from": "Delhi", "to": "Lucknow" },
+    { "trainName": "Vande Bharat Express", "from": "Delhi", "to": "Lucknow" },
+    { "trainName": "Shatabdi Express", "from": "Delhi", "to": "Lucknow" },
+    { "trainName": "Rajdhani Express", "from": "Delhi", "to": "Lucknow" },
+    { "trainName": "Garib Rath Express", "from": "Delhi", "to": "Lucknow" },
+  
+    { "trainName": "Vande Bharat Express", "from": "Kanpur", "to": "Agra" },
+    { "trainName": "Shatabdi Express", "from": "Kanpur", "to": "Agra" },
+    { "trainName": "Garib Rath Express", "from": "Kanpur", "to": "Agra" },
+    { "trainName": "Rajdhani Express", "from": "Kanpur", "to": "Agra" },
+    { "trainName": "Intercity Express", "from": "Kanpur", "to": "Agra" },
+  
+    { "trainName": "Express Special", "from": "Mathura", "to": "Gorakhpur" },
+    { "trainName": "Rajdhani Express", "from": "Mathura", "to": "Gorakhpur" },
+    { "trainName": "Shatabdi Express", "from": "Mathura", "to": "Gorakhpur" },
+    { "trainName": "Tejas Express", "from": "Mathura", "to": "Gorakhpur" },
+    { "trainName": "Duronto Express", "from": "Mathura", "to": "Gorakhpur" },
+  
+    { "trainName": "Rajdhani Express", "from": "Delhi", "to": "Varanasi" },
+    { "trainName": "Shatabdi Express", "from": "Delhi", "to": "Varanasi" },
+    { "trainName": "Garib Rath Express", "from": "Delhi", "to": "Varanasi" },
+    { "trainName": "Tejas Express", "from": "Delhi", "to": "Varanasi" },
+    { "trainName": "Duronto Express", "from": "Delhi", "to": "Varanasi" },
+  
+    { "trainName": "Rajdhani Express", "from": "Delhi", "to": "Patna" },
+    { "trainName": "Shatabdi Express", "from": "Delhi", "to": "Patna" },
+    { "trainName": "Garib Rath Express", "from": "Delhi", "to": "Patna" },
+    { "trainName": "Vande Bharat Express", "from": "Delhi", "to": "Patna" },
+    { "trainName": "Superfast Express", "from": "Delhi", "to": "Patna" },
+  
+    { "trainName": "Bihar Sampark Kranti", "from": "Delhi", "to": "Patna" },
+    { "trainName": "Tejas Express", "from": "Delhi", "to": "Patna" },
+    { "trainName": "Rajdhani Express", "from": "Delhi", "to": "Patna" },
+    { "trainName": "Duronto Express", "from": "Delhi", "to": "Patna" },
+    { "trainName": "Intercity Express", "from": "Delhi", "to": "Patna" },
+  
+    { "trainName": "Chhattisgarh Express", "from": "Raipur", "to": "Delhi" },
+    { "trainName": "Raipur Express", "from": "Raipur", "to": "Delhi" },
+    { "trainName": "Duronto Express", "from": "Raipur", "to": "Delhi" },
+    { "trainName": "Superfast Express", "from": "Raipur", "to": "Delhi" },
+    { "trainName": "Tejas Express", "from": "Raipur", "to": "Delhi" },
+  
+    { "trainName": "Dibrugarh Rajdhani", "from": "Dibrugarh", "to": "Delhi" },
+    { "trainName": "Rajdhani Express", "from": "Dibrugarh", "to": "Delhi" },
+    { "trainName": "Garib Rath Express", "from": "Dibrugarh", "to": "Delhi" },
+    { "trainName": "Superfast Express", "from": "Dibrugarh", "to": "Delhi" },
+    { "trainName": "Tejas Express", "from": "Dibrugarh", "to": "Delhi" },
+  
+    { "trainName": "Mysuru Express", "from": "Bangalore", "to": "Mysuru" },
+    { "trainName": "Tejas Express", "from": "Bangalore", "to": "Mysuru" },
+    { "trainName": "Shatabdi Express", "from": "Bangalore", "to": "Mysuru" },
+    { "trainName": "Vande Bharat Express", "from": "Bangalore", "to": "Mysuru" },
+    { "trainName": "Duronto Express", "from": "Bangalore", "to": "Mysuru" },
+  
+    { "trainName": "Konkan Kanya", "from": "Mumbai", "to": "Goa" },
+    { "trainName": "Mandovi Express", "from": "Mumbai", "to": "Goa" },
+    { "trainName": "Tejas Express", "from": "Mumbai", "to": "Goa" },
+    { "trainName": "Shatabdi Express", "from": "Mumbai", "to": "Goa" },
+    { "trainName": "Vande Bharat Express", "from": "Mumbai", "to": "Goa" }
+  ]
+  
